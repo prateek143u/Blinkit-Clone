@@ -1,0 +1,283 @@
+.location > h4 {
+   color: rgb(0, 0, 0);
+   font-weight: 800;
+   margin-bottom: 6px;
+   font-size: 18px;
+ }
+ .location > p {
+   margin-bottom: 0px;
+   font-size: 13px;
+   color: rgb(0, 0, 0);
+   font-weight: 400;
+ }
+ .vertical-line {
+   height: 59px;
+   border-left: 2px solid #f1f2f2;
+ }
+ .search {
+   padding: 0px 12px;
+   border: 1px solid rgb(232, 232, 232);
+   border-radius: 12px;
+   background: rgb(248, 248, 248);
+   color: rgb(130, 130, 130);
+ }
+ .input {
+   border: none;
+   width: 45vw !important;
+   height: 45px !important;
+   font-size: 14px !important;
+   color: rgb(153, 153, 153) !important;
+ }
+ .login {
+   font-size: 18px !important;
+   font-weight: 400 !important;
+   color: rgb(54, 54, 54) !important;
+ }
+ 
+ .cart {
+   background-color: rgb(12, 131, 31) !important;
+   padding: 8px !important;
+ }
+ 
+ .scrollable-div {
+   width: 84%;
+   margin: auto;
+   overflow-x: scroll;
+   padding-bottom: 20px;
+   padding-top: 20px;
+ }
+ 
+ .categories-items {
+   width: 84%;
+   margin: auto;
+   margin-bottom: 30px;
+ }
+ .categories-items>h3{
+     margin-bottom: 20px; 
+ }
+ 
+ .categories-items-row {
+     width: 100%;
+     overflow-x: scroll;
+   
+ }
+ 
+ .my-categories{
+ 
+   width: 85%;
+  
+ 
+ }
+ 
+ ::-webkit-scrollbar{
+     display: none;
+ }
+ .scrollable-div-container {
+   white-space: nowrap;
+ }
+ .scrollable-categories-items {
+   white-space: nowrap;
+   column-gap: 20px;
+ }
+ 
+ 
+ .content {
+   margin-top: 10px !important;
+ }
+ .my-categories {
+   width: 80%;
+ }
+ .scrollable-div-container > img {
+   padding-inline: 10px;
+ }
+ 
+ .my-card {
+   width: 175px !important;
+   cursor: pointer;
+   background: rgb(255, 255, 255);
+   border: 0.5px solid rgb(232, 232, 232);
+   box-shadow: rgba(0, 0, 0, 0.04) 2px 2px 8px;
+   border-radius: 8px;
+   position:relative;
+   
+ }
+ .offer{
+   background-color: rgb(12, 178, 243);
+   color:white;
+   width: 29px;
+   height: 29px;
+   font-size: 9px;
+   position:absolute;
+   top:0;
+   left:1;
+   padding:2px;
+ 
+ 
+ }
+ .my-card-time {
+   width: fit-content;
+   border-radius: 4px;
+   padding: 0px 4px;
+   background-color: rgb(248, 248, 248);
+ }
+ .my-card-heading {
+   color: rgb(31, 31, 31);
+   font-weight: 600;
+   font-size: 13px;
+   width: 100%;
+   white-space: normal;
+   height: 36px;
+ }
+ .my-card-weight {
+   color: #666666;
+   font-size: 13px;
+ }
+ .my-card-amount {
+   color: rgb(31, 31, 31);
+   font-weight: 600;
+   font-size: 12px;
+ }
+ .my-card-amount>div{
+ 
+   color:#acabab
+ 
+ }
+ 
+ .title {
+   margin-bottom: 20px;
+ }
+ .my-footer{
+     width:75%;
+     margin:auto;
+ }
+ 
+ .row-3{
+ 
+     font-size: 14px;
+     text-align: justify;
+     color: rgb(102, 102, 102);
+     margin-top: 20px;
+ 
+ }
+ .row-1{
+     margin-bottom: 20px;
+ }
+ 
+ .row-2-1{
+     width:30%;
+     font-size:12px;
+     color:#666666;
+ }
+ 
+ .row-2-2>p{
+     font-weight: bold;
+     font-size:15px;
+     color:#666666;
+     margin: 16px;
+     
+     
+ }
+ .row-2-2>button{
+  
+     border: none;
+     color: white;
+     background-color: #213b50;
+     border-radius: 10px;
+     margin: 10px;
+     padding: 10px;
+     font-size:20px;
+ 
+     
+ 
+ 
+ }
+ 
+ .row-2-3>div{
+ 
+     height:45px;
+     width: 45px;
+     border-radius: 50%;
+     background-color: black;
+     color: white;
+     font-size: 30px;
+     margin-inline: 10px;
+ }
+ .part-1{
+     flex:2;
+ }
+ 
+ .part-1>h4,.part-2>div>h4{
+    
+     margin-left: 0px;
+     margin-bottom: 24px;
+     font-size: 24px;
+     
+ }
+ 
+ .part-2{
+     flex:3;
+ }
+ table{
+     width:100%;
+ }
+ 
+ td{
+   padding: 3px 10px;
+   color: #666666;
+   font-size: 14px;
+ }
+ 
+ 
+ 
+ @media screen and (max-width:991px){
+ 
+   .location>h4{
+     margin-top: 10px;
+     margin-bottom: 10px;
+   }
+   .location>p{
+     text-align: center;
+     margin-bottom: 10px;
+   }
+   .search{
+     width:100%;
+   }
+   .my-nav{
+ 
+     flex-direction: column;
+     
+     margin-inline: 0px;
+     
+   }
+   .vertical-line{
+     display: none !important;
+   }
+   #hero-section{
+     display: none !important;
+   }
+    .row-1,.row-2{
+      flex-direction: column !important;
+      padding-top: 10px;
+    }
+    .row-1>div>h4{
+     text-align: center;
+    }
+    .part-2>h4{
+     text-align: center !important;
+    }
+    .part-1>table{
+     margin-bottom: 15px;
+    }
+ 
+    .row-2-1{
+     width:100%;
+    }
+     .row-2-3{
+       margin-top: 10px;
+       justify-content: space-between;
+     }
+ 
+     .my-cart{
+        width:50%;
+     }
+ }
